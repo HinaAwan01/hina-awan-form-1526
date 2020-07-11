@@ -97,8 +97,7 @@ header {
 }
 
 .bg-nav ul a:link{    
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 /* style for the form placed in the main content of the html page*/
@@ -203,8 +202,7 @@ header {
         max-width:1600px;
     }
     
-    .bg-nav ul{        
-
+    .bg-nav ul{
         padding:0.5% 15%;
     }
     
