@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My FeedBack Form</title>   
+    <!--	link the css file-->    
+	<link rel="stylesheet" type="text/css" href="css/style.css">      
+    <!--	link the fontawesome css file     -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>    
+    <!--   header of the html page-->
+    <header>
+        <div class="bg-header">
+            <div class="box">
+                <h1 id="tag-line">My Feedback Form</h1>                
+            </div>
+        </div> 
+    </header>
+    <!--    navigation bar of the html page-->
+    <nav class="bg-nav">		
+		<div>
+           <ul>
+             <li><a href="#">Home</a></li>				  
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--    main body of the html page, containing form-->
+   <main>
+    <div class="bg-main-content">   
+	    <form>
+	        <fieldset>
+		        <legend>Form Assignment</legend>
+		
+                   <!-- form-grp and form-grp-2 classes are used to display the label and input fields of "full name and email" in flex direction-->
+               
+                    <div class="form-grp">
+                         <div class="form-grp-2">
+			                <div class="box lbl">
+				                <label for="fullname">Full Name</label>
+                            </div>                   
+                            <div class="box">				
+				                <input type="text" name="fullname" d="fullname" value="" />
+			                </div> 
+                         </div>              
+                         <div class="form-grp">
+                            <div class="form-grp-2">
+			                    <div class="box lbl">
+				                    <label for="email">Email</label>
+                                </div>                       
+                            <div class="box">				
+				                <input type="text" name="email" id="email" value="" />
+			                </div>
+                            </div>
+                         </div>
+                    </div>                
+            <!--  the message and submit button are not displayed in flex -->            
+			        <div class="box lbl">
+				        <label for="message">Message</label>
+                    </div>                   
+                    <div class="box">		
+                        <textarea id="message" name="message" placeholder="Write something.." value=""></textarea>
+			        </div>    
+                     		
+			        <div class="box">
+				        <input type="button" id="submit-data" name="submit-data" value="SUBMIT" />
+			        </div>               
+		    </fieldset>
+	    </form>		    
+     </div>   <!--	div for main content is closed here-->
+  </main>     
+  <footer class="bg-footer">
+     <div>
+        <h4>Contact</h4>
+        <p class="source">Creative Arts</p>
+        <p class="source">Address: xyz, Street # 20, Ottawa</p>
+        <p class="source">Telephone: 123-456-789 </p>
+     </div>
+     <div>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>						
+        </ul>
+     </div>    
+  </footer>	
+  
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
