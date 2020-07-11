@@ -18,7 +18,7 @@ function handleForm() {
 		errors.push('Fullname is empty!');
 	}    
     
-	if (em.value !== '') {		
+    if (em.value !== '') {		
 		// validate email format
 		if (pattern.test(em.value)) {
             uinput.email = em.value;
@@ -37,7 +37,7 @@ function handleForm() {
 	}	
 	
 	// printing either feedback or errors
-	if (errors.length === 0) {
+    if (errors.length === 0) {
 		console.log('COLLECTED DATA', uinput);
 	} else {
 		console.log('ERRORS', errors);
