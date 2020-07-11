@@ -89,9 +89,11 @@ header {
     text-align: center;
 }
 
+
 /* style for nav bar */
 .bg-nav ul{    
     list-style: none;
+    padding:0.5% 5%;
 }
 
 .bg-nav ul a:link{    
@@ -135,6 +137,7 @@ header {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     border-radius: 3px;
+    border: thin solid #ccc;
     width:100%;
 }
 
@@ -197,10 +200,12 @@ header {
 
     body {        
         font-size: 1rem;
+        max-width:1600px;
     }
     
-    .bg-nav{        
-        padding:0 1.2rem;        
+    .bg-nav ul{        
+
+        padding:0.5% 15%;
     }
     
     .bg-nav ul li{    
@@ -252,3 +257,6 @@ header {
     }    
     
 }
+
+
+
